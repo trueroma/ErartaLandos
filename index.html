@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="content/icon.png" type="image/png">
+  <link rel="stylesheet" href="style/style.css">
+<!--    <script src="https://maps.googleapis.com/maps/api/js?callback=init" async defer></script>-->
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=4ce21fb4-464c-4a3e-8cc9-315e382e64db&lang=ru_RU">
+  </script>
+  <script src="js/main.js" charset="utf-8"></script>
+  <title>U-space</title>
+</head>
+<body>
+  <div class="header">
+    <div class="wrapper">
+      <div class="top">
+          <img src="content/logo.svg" alt="logo">
+<!--          <a href="#">+7 (812) 324-08-09</a>-->
+      </div>
+      <h1>Музей "Эрарта" представляет U-Space</h1>
+    </div>
+  </div>
+  <div class="short-description">
+      <div>
+          <img src="content/clock.svg" alt="clock">
+          <span>15 минут</span>
+      </div>
+      <div>
+          <img src="content/money-bill-alt.svg" alt="money">
+          <span>200 рублей</span>
+      </div>
+      <div>
+          <img src="content/eye.svg" alt="eye">
+          <span>цена для группы до 5 человек</span>
+      </div>
+      <div>
+          <img src="content/gem.svg" alt="gem">
+          <span>отдельный билет на входе</span>
+      </div>
+  </div>
+  <div class="line"></div>
+  <div class="text-wrapper">
+    <p>Тотальные инсталляции U-Space дают посетителю возможность пережить особый эмоциональный и ментальный опыт. В течение пятнадцати минут, что отведены на посещение каждого из этих арт-пространств, зритель может прожить иную жизнь, и для каждого она будет разной в зависимости от особенностей его индивидуального восприятия. У всех тотальных инсталляций есть своя тема, предопределяющая тональность чувств и размышлений, зарождающихся внутри U-Space, и задающая эмоциональный фон, который зритель затем самостоятельно трансформирует в личные переживания.</p>
+    <b>Для посещения U-Space необходим отдельный билет, который можно приобрести на ресепшн в кассах.</b>
+  </div>
+  <iframe src="https://www.youtube.com/embed/Uwn_2K0WB10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="installations">
+      <div class="installation installation1">
+          <div class="wrapper">
+              <h2>U-Space "Загрузка"</h2>
+              <p>задуматься о зыбкости границ круга, в котором мы ежедневно существуем, и попробовать выйти за них</p>
+          </div>
+      </div>
+      <div class="installation installation2">
+          <div class="wrapper">
+              <h2>U-Space "Вишневый сад"</h2>
+              <p>пережить весеннее половодье чувств надежды и возрождения</p>
+          </div>
+      </div>
+      <div class="installation installation3">
+          <div class="wrapper">
+              <h2>U-Space "Детство"</h2>
+              <p>как некогда, тепло и открыто посмотреть на мир глазами ребёнка</p>
+          </div>
+      </div>
+      <div class="installation installation4">
+          <div class="wrapper">
+              <h2>U-Space "Бесконечность"</h2>
+              <p>ощутить принадлежность мирозданию и безграничность возможностей</p>
+          </div>
+      </div>
+      <div class="installation installation5">
+          <div class="wrapper">
+              <h2>U-Space "Что остаётся, когда всё проходит"</h2>
+              <p>прочувствовать неумолимый ход времени и неотвратимость потери</p>
+          </div>
+      </div>
+      <div class="installation installation6">
+          <div class="wrapper">
+              <h2>U-Space "Истоки"</h2>
+              <p>осмыслить свои корни и личную историю</p>
+          </div>
+      </div>
+      <div class="installation installation7">
+          <div class="wrapper">
+              <h2>U-Space "Седьмое небо"</h2>
+              <p>взобраться на седьмое небо и почувствовать себя счастивым</p>
+          </div>
+      </div>
+      <div class="installation installation8">
+          <div class="wrapper">
+              <h2>U-Space "Мой дом - моя крепость?"</h2>
+              <p>ощутить хрупкость личного пространства перед наступающей громадой внешнего мира</p>
+          </div>
+      </div>
+  </div>
+  <div class="basic-information">
+      <div class="wrapper">
+          <div>
+              <img src="content/clock-wh.png" alt="clock">
+              <span>Работает с 10:00 до 22:00</span>
+          </div>
+          <div>
+              <img src="content/place.png" alt="money">
+              <span>Санкт-Петербург, 29-я линия Васильевского острова, 2</span>
+          </div>
+          <div>
+              <img src="content/phone.png" alt="eye">
+              <span>+7 (812) 324-08-09</span>
+          </div>
+      </div>
+  </div>
+
+  <div id="map"></div>
+<!--  <script>-->
+<!--      function initMap() {-->
+<!--          const map = new google.maps.Map(document.getElementById('map'), {-->
+<!--              center: {lat: 59.932242, lng: 30.251411},-->
+<!--              zoom: 16-->
+<!--          });-->
+<!--          const marker = new google.maps.Marker({-->
+<!--              position: {lat: 59.932242, lng: 30.251411},-->
+<!--              map: map,-->
+<!--              title: 'Эрарта',-->
+<!--              icon: 'content/iconEr.png'-->
+<!--          });-->
+<!--      }-->
+<!--  </script>-->
+<!--  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWvg6iJ5_d2Xu3UDOGrFp6pOwa1xhghx4&callback=initMap"-->
+<!--          async defer></script>-->
+  <div class="footer">
+      <div class="wrapper">© Эрарта</div>
+  </div>
+</body>
+</html>

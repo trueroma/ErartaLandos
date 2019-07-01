@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css?family=Didact+Gothic|Montserrat:400,700&display=swap");
+html {
+  font-size: 1vw;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 37.5vw;
+  background: url("../content/second.png") no-repeat center/cover;
+}
+.header .wrapper {
+  margin: auto;
+  width: 75vw;
+  max-width: 1440px;
+  height: 100%;
+}
+.header .wrapper .top {
+  margin: 30px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Didact Gothic";
+}
+.header .wrapper .top img {
+  width: 8.6vw;
+}
+.header .wrapper h1 {
+  font-family: "Montserrat";
+  font-size: 4rem;
+  color: #ffffff;
+  font-weight: 700;
+  width: 70%;
+  margin: 15% 0 0 0;
+}
+
+.short-description {
+  margin: 38px auto;
+  width: 75vw;
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.7fr 1.7fr;
+  grip-gap: 3.65vw;
+  font-family: "Didact Gothic";
+  font-size: 1rem;
+}
+.short-description div {
+  display: flex;
+  max-height: 1rem;
+}
+.short-description img {
+  max-height: 1rem;
+}
+.short-description span {
+  transform: translateY(-0.25vw);
+  margin: 0 0 0 1.25vw;
+}
+
+.line {
+  width: 100vw;
+  height: 2px;
+  background-color: #d8d8d8;
+}
+
+.text-wrapper {
+  margin: 0 auto;
+  width: 75vw;
+  max-width: 1440px;
+  font-family: "Didact Gothic";
+  font-size: 1rem;
+}
+
+iframe {
+  margin: 20px 0 0 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.installations {
+  width: 100vw;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+}
+.installations .installation {
+  width: 100%;
+  height: 27vw;
+  margin: 0;
+}
+.installations .installation .wrapper {
+  margin: auto;
+  width: 75vw;
+  max-width: 1440px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #ffffff;
+}
+.installations .installation .wrapper h2 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 4rem;
+  margin-bottom: 0.625vw;
+}
+.installations .installation .wrapper p {
+  margin: 0 0 1.35vw;
+  font-family: "Didact Gothic";
+  font-size: 1.2rem;
+}
+.installations .installation1 {
+  background: url("../content/Ufirst.png") no-repeat center/cover;
+}
+.installations .installation2 {
+  background: url("../content/Usecond.png") no-repeat center/cover;
+}
+.installations .installation3 {
+  background: url("../content/Uthird.png") no-repeat center/cover;
+}
+.installations .installation4 {
+  background: url("../content/Ufourth.png") no-repeat center/cover;
+}
+.installations .installation5 {
+  background: url("../content/Ufifth.png") no-repeat center/cover;
+}
+.installations .installation6 {
+  background: url("../content/U6ix.png") no-repeat center/cover;
+}
+.installations .installation7 {
+  background: url("../content/U7even.png") no-repeat center/cover;
+}
+.installations .installation8 {
+  background: url("../content/Ueight.png") no-repeat center/cover;
+}
+
+.basic-information {
+  background-color: #000;
+  color: #fff;
+}
+.basic-information .wrapper {
+  margin: 38px auto;
+  width: 75vw;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basic-information img {
+  max-height: 1rem;
+}
+.basic-information span {
+  font-family: "Didact Gothic";
+  font-size: 1rem;
+  margin: 0 70px 0 24px;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #000;
+}
+.footer .wrapper {
+  margin: 0 auto;
+  width: 75vw;
+  max-width: 1440px;
+  height: 100%;
+  font-family: "Didact Gothic";
+  font-size: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (orientation: portrait) {
+  .header {
+    height: 60vh;
+  }
+  .header .wrapper .top img {
+    width: 30vw;
+  }
+  .header .wrapper h1 {
+    margin-top: 40%;
+    width: 100%;
+    font-size: 8.4rem;
+  }
+
+  .short-description {
+    display: block;
+    margin: 3rem auto;
+    font-size: 3rem;
+  }
+  .short-description span {
+    margin: 0;
+    transform: translateY(-3px);
+  }
+  .short-description div {
+    margin: 4rem;
+  }
+  .short-description img {
+    margin: 0 2rem 0 0;
+    min-height: 3rem;
+  }
+
+  .text-wrapper {
+    margin: 4rem auto;
+    font-size: 3rem;
+  }
+
+  iframe {
+    height: 56vw;
+  }
+
+  .basic-information .wrapper {
+    display: block;
+    margin: 3rem auto;
+  }
+  .basic-information .wrapper span {
+    margin: 0;
+    font-size: 3rem;
+  }
+  .basic-information .wrapper div {
+    margin: 4rem;
+  }
+  .basic-information .wrapper img {
+    margin: 0 2rem 0 0;
+    min-height: 3rem;
+  }
+
+  #map {
+    height: 50vh;
+  }
+
+  .footer .wrapper {
+    font-size: 3rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
